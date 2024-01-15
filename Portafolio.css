@@ -395,6 +395,7 @@ html{
 .imagen-izquierda {
     display: inline-block;
     width: 80%; 
+    height: 70%;
 }
 .cursosd {
     text-align: center;
@@ -403,7 +404,9 @@ html{
 
 .imagen-derecha {
     display: inline-block;
-    width: 90%; 
+    width: 90%;
+    height: 70%; 
+    text-align: center;
 }
 .contenido .fila .der{
     border-left: 2px solid #1CB698;
