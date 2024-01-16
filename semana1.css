@@ -1,24 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     font-family: 'Work Sans';
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-.semana1{
-    background-color: #1e2326;
+
+.semana1 {
+    background: url('img/gif2.gif') center center fixed; 
     color: #fff;
     padding: 50px 20px;
 }
 
-.contenido .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
-}
-.semana1 h1{
+.semana1 h1 {
     font-size: 55px;
     font-family: 'Righteous';
     text-align: center;
@@ -26,16 +25,16 @@ html{
     color: greenyellow;
 }
 
-.semana1 h2{
+.semana1 h2 {
     font-size: 18px;
-    text-align:justify;
+    text-align: justify;
     padding: 8px 0;
     color: orangered;
 }
 
 .semana1 span {
     font-size: 35px;
-    font-family:'Righteous';
+    font-family: 'Righteous';
     text-align: center;
     margin-bottom: 25px;
     color: lightskyblue;
@@ -43,18 +42,27 @@ html{
 }
 
 .semana1 p {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     text-align: justify;
+    color:white;
+    font-weight: bold;
 }
+
 .casa {
-    display: block; 
-    margin: 20px 2; /* Agregar espacio arriba y abajo para separar visualmente los elementos */
-    font-size: 1.5em; /* Ajustar el tamaño del texto según tus preferencias */
-    font-weight: bold; 
+    display: block;
+    margin: 20px 2;
+    /* Agregar espacio arriba y abajo para separar visualmente los elementos */
+    font-size: 1.5em;
+    /* Ajustar el tamaño del texto según tus preferencias */
+    font-weight: bold;
 }
+
 .imagen {
-    border: 2px solid red; 
+    border: 2px solid red;
     border-radius: 8px;
-    margin: 0 auto; 
-    display: block; 
+    margin: 0 auto;
+    display: block;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+    animation-delay: 0.5s;
 }
